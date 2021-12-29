@@ -4,7 +4,7 @@ public class Position {
 
 	private int row;
 	private int column;
-	
+
 	public Position() {
 	}
 
@@ -28,10 +28,10 @@ public class Position {
 	public void setColumn(int column) {
 		this.column = column;
 	}
-	
+
 	@Override
 	public String toString() {
 		return row + ", " + column;
 	}
-	
+
 }
